@@ -1,0 +1,50 @@
+LS(1)                     Commandes de l'utilisateur                     LS(1)
+
+NOM
+       ls - Afficher le contenu de répertoires
+
+SYNOPSIS
+       ls [OPTION]... [FICHIER]...
+
+DESCRIPTION
+       Afficher  les  informations des FICHIERs (du répertoire courant par dé‐
+       faut). Les entrées sont triées alphabétiquement si aucune  des  options
+       -cftuvSUX ou --sort n'est indiquée.
+
+       Les  paramètres  obligatoires  pour les options de forme longue le sont
+       aussi pour les options de forme courte.
+
+       -a, --all
+              inclure les entrées débutant par « . »
+
+       -A, --almost-all
+              omettre les fichiers « . » et « .. »
+
+       --author
+              avec -l, afficher l'auteur de chaque fichier
+
+       -b, --escape
+              afficher les caractères non graphiques sous la forme  de  carac‐
+              tères d’échappement de style C
+
+       --block-size=TAILLE
+              avec  -l, ajuster les tailles avec TAILLE quand elles sont affi‐
+              chées ; par  exemple  « --block-size=M » ;  voir  le  format  de
+              TAILLE ci-dessous
+
+       -B, --ignore-backups
+              omettre les entrées se terminant par « ~ »
+
+       -c     avec -lt, trier selon la date de modification « ctime » en l'af‐
+              fichant ; avec -l, trier selon le nom et afficher la date de mo‐
+              dification ;  sinon,  trier selon la date de modification, de la
+              plus récente à la plus ancienne
+
+       -C     afficher en colonnes
+
+       --color[=QUAND]
+              colorer la sortie ; QUAND peut être  « always »  (toujours,  par
+              défaut  si  rien n'est indiqué), « auto » (automatique) ou « ne‐
+              ver »  (jamais) ;  des  renseignements  complémentaires  suivent
+ Manual page ls(1) line 1 (press h for help or q to quit)
+
